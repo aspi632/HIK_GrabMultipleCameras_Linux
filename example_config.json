@@ -1,0 +1,19 @@
+{
+  "topCamera": {
+    "serial": "DA1444043",
+    "exposure": 9500,
+    "gain": 10
+  },
+
+  "leftCamera": {
+    "serial": "DA1444020",
+    "exposure": 5000,
+    "gain": 5
+  },
+
+  "rightCamera": {
+    "serial": "02K18879905",
+    "exposure": 5000,
+    "gain": 5
+  }
+}

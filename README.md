@@ -4,11 +4,11 @@ This repository contains an example of utilizing multiple HIK robotics cameras u
 
 # Dependencies
 1. The Machine Vision Software (MVS) should be installed first. It can be found at the official HIK robotics website: https://www.hikrobotics.com/en/machinevision/service/download
-2. Check the folder `MvImport` after MVS installation - by default, it is located at `/opt/MVS/Samples/64/Python/MvImport`. If it's not, you will need to change the Line 4 of `hik_camera.py` with the correct path such as
+2. This repository uses the default folder `MvImport`, a path to which should be set as the `MVCAM_SDK_PATH` environment variable after step 1. If you face some errors about this, consider to change the Line 5 of `hik_camera.py` with the correct path such as
    ```Python3
    sys.path.append("path/to/MvImport")
    ``` 
-3. To set the camera parameters and make a naming for them the json file is using, the example can be found at `example_config.json`:
+5. To set the camera parameters and make a naming for them the json file is using, the example can be found at `example_config.json`:
 
     ```Python3
     {
